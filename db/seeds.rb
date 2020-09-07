@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+author = Author.create(name: 'Andrew Weinstein', title: 'Lead Developer')
+Post.create(title: 'Hello World', body: 'This is my first post', author: author)
+Post.create(title: 'Docker', body: "Let's get Rails running on Docker", author: author)
